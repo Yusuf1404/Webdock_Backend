@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webdock_Backend", "Webdock_Backend\Webdock_Backend.csproj", "{6025EC71-303E-40FA-8B54-C42960AC8063}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerPrometheusSetup", "DockerPrometheusSetup\DockerPrometheusSetup.csproj", "{A656F1A2-F8BF-4755-8AE2-2816ADB02619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webdock_Backend_UnitTests", "Webdock_Backend_UnitTests\Webdock_Backend_UnitTests.csproj", "{908BFB07-0B9E-469D-92B0-83A2469010E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6025EC71-303E-40FA-8B54-C42960AC8063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6025EC71-303E-40FA-8B54-C42960AC8063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6025EC71-303E-40FA-8B54-C42960AC8063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6025EC71-303E-40FA-8B54-C42960AC8063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A656F1A2-F8BF-4755-8AE2-2816ADB02619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A656F1A2-F8BF-4755-8AE2-2816ADB02619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A656F1A2-F8BF-4755-8AE2-2816ADB02619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A656F1A2-F8BF-4755-8AE2-2816ADB02619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908BFB07-0B9E-469D-92B0-83A2469010E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908BFB07-0B9E-469D-92B0-83A2469010E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908BFB07-0B9E-469D-92B0-83A2469010E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908BFB07-0B9E-469D-92B0-83A2469010E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82BAA5EB-921E-4C6F-B382-3AF549A32D74}
+	EndGlobalSection
+EndGlobal
